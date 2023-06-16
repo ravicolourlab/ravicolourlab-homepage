@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <!-- link to css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://js.stripe.com/v3/"></script>
+</head>
+<body>
+    <!-- navbar -->
+    <header>
+        <!-- nav -->
+        <div class="nav container">
+            <!-- logo -->
+            <a href="" class="logo">Ravi Colour Lab</a>
+            </div>
+        </div>
+    </header>
+    <!-- products -->
+    <section class="shop container">
+        <h2 class="section-title">Shop Products</h2>
+        <!-- shop content -->
+        <div class="shop-content">
+            <!-- box1 -->
+            <div class="product-box">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYLZ2067AvQCMGZqmhU8NR61gmKbSjlvnhv8NJwI2j5CeP_FNVTCETVAiQyD4WnHoa97JK--X-sdoKAkfXEN6vuTCva7ITdmtXIMQUm6qvBAh8pUJ6q-E73ScHNZUXp_DwK97tKIpyszWfpf5s_ttjNTDgN6-MViQzVMJqp-MUY0mRRqD8On9llgaDFQ/s320/cup.png" alt="" class="product-img">
+                <h2 class="product-title">CUP</h2>
+                <span class="price">₹250</span>
+                <i class="bx bx-shopping-bag add-cart"></i>
+            </div>
+             <!-- box2 -->
+             <div class="product-box">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpdprosHn6fVUoNUacTCrTB7PpuO4kX1Z8fIUlk2aRmk51NiOehBXs09OoKLzV0jgEw-0kmcb4CgSRF7U-9pD6CiiqwTTmxtKP4R-BU8Cza95msp_qDrwo3Boef_Hqy4zZSUSq_WNjanEsPuJV-9urW4gUtor_u5t3BXkhKa7r756AjczaXNbeHtvnAg/s320/t-shirt.png" alt="" class="product-img">
+                <h2 class="product-title">T-SHIRT</h2>
+                <span class="price">₹300</span>
+                <i class="bx bx-shopping-bag add-cart"></i>
+            </div>
+             <!-- box3 -->
+             <div class="product-box">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgE_SScTv3bD5AXRe25ZFR2DQDy86x8dWnV-S2h7yclFKAyMh-ls1H8U8MNyfgxCV8HxlahUve_3UXFU3Zt0_o9VBxFmsxfFq9nQSoSArZasbWs8i21Z9L2r1n6yk9agOQ_H3wu2nD4pKTSLAcagytcAU-cD7kPhyK7z85XBM43VPpZSbDocKOH82xp5g/s320/key%20ring.png" alt="" class="product-img">
+                <h2 class="product-title">KEY CHAINS</h2>
+                <span class="price">₹150</span>
+                <i class="bx bx-shopping-bag add-cart"></i>
+            </div>
+             <!-- box4 -->
+             <div class="product-box">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjTNTOXxkmhaG-82bj-vW2pBqWiEBnGcIRvsbbS47n6FXKebOV9rQHbRJmJXuIb5o4XFcj7gAyqx3wKmjIxzRQyKyZ-dBblDP8W_sRldEQHZYllLbpq3gtwCH8ddqN_8bOb9eJ2yWJ9dMu1wh2USEFn_YjOPJ9QmO2uV7nvG25hy9o03fsKaI0ANCt-NQ/s320/pillow.png" alt="" class="product-img">
+                <h2 class="product-title">PILLOW</h2>
+                <span class="price">₹450</span>
+                <i class="bx bx-shopping-bag add-cart"></i>
+            </div>
+             <!-- box5 -->
+             <div class="product-box">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgsDUegw0yAuizdgorfPACK_oQeLqxjcRaidcxmT5W0oF6T-hnS8oyWv4KDWb-LuqBhVx_fAcOGgir26b8VkVjD_3JQ8Cf5nmhc-0NYVZUGHiXYutmzaze4yceRzWqsd7AKRCJKsdFKMJWjITPIcEl5WHdIFrq0vusM0hDs4XLJaxqk9l7tCqTdznEWGQ/s320/photo%20cube.png" alt="" class="product-img">
+                <h2 class="product-title">PHOTO CUBE</h2>
+                <span class="price">₹450</span>
+                <i class="bx bx-shopping-bag add-cart"></i>
+            </div>
+             <!-- box6 -->
+             <div class="product-box">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXo5Otp8nsylu8Mv7Ox3v16rKWTDTcGCWBMn0M5P-R_lZqvvuXhhCPukoP37wm7Mv-PUSZcMHLC0LWESZVnwpRRKXtQmoOU5omeho08s5wllENKN5lPTB1pTK9k6K9-G8P4Nwm8mciK2CUxGxM_HV2HJKNkGAsTgo6lrgY_N7ltoDTwvdYCRqEE9O2Cw/s320/circular%20frame.png" alt="" class="product-img">
+                <h2 class="product-title">CIRCULAR FRAME</h2>
+                <span class="price">₹700</span>
+                <i class="bx bx-shopping-bag add-cart"></i>
+            </div>
+             <!-- box7 -->
+             <div class="product-box">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJOQPtJ8iCjA_-D7juU5WvK_zMytSKdLAD4ZoGFFgp-4yvkrh36AIqMGZ9GviBh7v2ZxVdKBWF5KPmaWtDJqLJ8LFgl3hspU13txqxpg6bwels25olqgc3X4ON2kXvcRxMzchanH0YCPCrvDFXZwC-l6hEQYoMXllR3tuLBp95NOyHNYrNe1zC2eIYJQ/s320/wooden%20frame.png" alt="" class="product-img">
+                <h2 class="product-title">WOODEN FRAME</h2>
+                <span class="price">₹400</span>
+                <i class="bx bx-shopping-bag add-cart"></i>
+            </div>
+             <!-- box8 -->
+             <div class="product-box">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh0cQLw3GYl8nu3Xdo2G5qYsrFrKmPBkxPzcHQR-YF-dTzK-hjhh1ZLbQFoN2lnVC6Uf5q0dYZbxP6OyUP67wPFLrpOaRqYso3WV7qfrt5zx7gacVd5k8pmthDY4IHVBCmDXfXcqVD9g8pM_FiaZKJ5NdOVfaK76PLQrSfasa4mHBEEv9xnS5tOoaPFpg/s320/lighting%20frame.png" alt="" class="product-img">
+                <h2 class="product-title">LIGHTING FRAME</h2>
+                <span class="price">₹700</span>
+                <i class="bx bx-shopping-bag add-cart"></i>
+            </div>
+             <!-- box9 -->
+             <div class="product-box">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4IfTl8TF7VMhlW-F_uXyxzhibrYx_euX8vuBMOB7MmBv8qFM20YeDEjzo4PajzoW29F0w0Smmb8ErfXiqhGxluZDR8_cVsu_7rUZ3Wms4SzOiKCK2gYeQ2lPXPbznZyS7CrV8EJFFBGoWBekNTMNuNSOyIUcVJAyV-xtPr2CmI2YNbLmvw22OqhO34A/s320/rotating%20frame.png" alt="" class="product-img">
+                <h2 class="product-title">ROTATING FRAME</h2>
+                <span class="price">₹750</span>
+                <i class="bx bx-shopping-bag add-cart"></i>
+            </div>
+        </div>
+    </section>
+    <!-- link ot js -->
+    <script src="main.js"></script>
+    <script src="cart.js"></script>
+</body>
+</html>
